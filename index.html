@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        ul {
+        list-style-type: none;
+        padding: 0;
+        }
+
+        li {
+        margin-bottom: 10px;
+        padding: 10px;
+        background-color: #e0d8cf; 
+        border-radius: 5px;
+        }
+
+        li:nth-child(odd) {
+        background-color: #aed9e0; 
+        }
+
+        li:nth-child(even) {
+        background-color: #d8a0a0; 
+        }
+
+        li:hover {
+        opacity: 0.8;
+        }
+    </style>
+</head>
+<body>
+        <input id="cityName" type="text" placeholder="City name">
+        <button id="buttonSearch">Search</button>
+    <script src="script.js"></script>
+</body>
+</html>
